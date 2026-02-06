@@ -10,7 +10,6 @@ public class CustomError {
 	private String path;
 	
 	public CustomError(Instant timestamp, Integer status, String error, String path) {
-		super();
 		this.timestamp = timestamp;
 		this.status = status;
 		this.error = error;
